@@ -30,6 +30,7 @@ namespace ADFSDump
             } catch (Exception e)
             {
                Info.ShowHelp();
+               Console.WriteLine(e);
                Environment.Exit(1);
             }
             return arguments;
